@@ -21,6 +21,7 @@ void printVehicle(Vehicle *vehicle) {
   print(&vehicle->plate);
 };
 
-void updatePlate(Plate plate) {
-  
+void updatePlate(char code[4], char letters[3]) {
+  updateLetters(vehicle->plate, letters);
+  updateCode(vehicle->plate, code);
 };
